@@ -1,14 +1,16 @@
 package es.moodbox.humantower.service.impl;
 
-import main.java.HumanTowerService;
+import es.moodbox.humantower.service.HumanTowerService;
 
-public class HumanTowerImpl implements HumanTowerService{
+public class HumanTowerRecursiveImpl implements HumanTowerService{
 
 	private static final int HUMAN_WEIGHT = 50;
+	
+	public HumanTowerRecursiveImpl() {}
 
-	public float getHumanEdgeWeight(int level, int index) {
+	public Double getHumanEdgeWeight(int level, int index) {
 		if (level == 0) {
-			return 0;
+			return Double.valueOf("0.0");
 		} else {
 			return (getHumanWeight(level -1,index-1) + getHumanWeight(level-1 , index) + getHumanEdgeWeight(level - 1, index -1) + getHumanEdgeWeight(level - 1, index)) / 2;
 		}
@@ -21,9 +23,9 @@ public class HumanTowerImpl implements HumanTowerService{
 		return HUMAN_WEIGHT;
 	}
 
-	public float getHumanEdgeWeight(int level) {
+	public Double getHumanEdgeWeight(int level) {
 		if (level == 0) {
-			return 0;
+			return Double.valueOf("0.0");
 		} else {
 			return (HUMAN_WEIGHT/2) + (getHumanEdgeWeight(level-1) /2);
 		}

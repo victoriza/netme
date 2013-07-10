@@ -1,4 +1,4 @@
-package es.moodbox.humantower.service;
+package main.java;
 
 public interface HumanTowerService {
 
