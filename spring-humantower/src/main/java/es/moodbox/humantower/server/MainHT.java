@@ -8,8 +8,14 @@ import org.springframework.context.support.AbstractApplicationContext;
 import es.moodbox.humantower.spring.cfg.SpringConfig;
 
 public class MainHT {
+	
 	private static final Logger LOG = LoggerFactory.getLogger(MainHT.class);
 	
+	/**
+	 * It starts the app context with our programmatic config
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		LOG.debug("Starting app context");
 		@SuppressWarnings("resource")
