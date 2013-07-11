@@ -41,4 +41,26 @@ public class RequestUtil {
 		}
 		return params;
 	}
+
+	/**
+	 * Tries to builds an integer for a number, 
+	 * if not posible it returns -1
+	 * 
+	 * @param number
+	 * @return
+	 */
+	public static Integer parseString(String number) {
+		
+		Integer res = -1;
+		
+		try {
+			res = Integer.parseInt(number);
+		} catch (NumberFormatException ex) {
+			LOG.error(ex.getMessage());
+			
+			//we are not able to parse
+			res = -1;
+		}
+		return res;
+	}
 }

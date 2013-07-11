@@ -92,10 +92,15 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<Object> {
 					sIndex = "0";
 				}
 
-				Integer level = Integer.parseInt(sLevel);
-				Integer index = Integer.parseInt(sIndex);
-
-				result = hts.getHumanEdgeWeight(level,index);
+				Integer level = RequestUtil.parseString(sLevel);
+				Integer index = RequestUtil.parseString(sIndex);
+				
+				//bad params we return -1
+				if (level == -1 || index == -1) {
+					result = new Double(-1);
+				} else {
+					result = hts.getHumanEdgeWeight(level,index);
+				}
 			}
 			
 			ByteBuf sResult = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(String.valueOf(result), CharsetUtil.US_ASCII));
