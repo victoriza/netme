@@ -3697,3 +3697,671 @@
 2013-07-11 19:33:27,183 [RequestUtil.java:59][ERROR]:For input string: "aaa"
 2013-07-11 19:33:27,399 [RequestUtil.java:59][ERROR]:For input string: "aaa"
 2013-07-11 19:33:27,622 [RequestUtil.java:59][ERROR]:For input string: "aaa"
+2013-07-11 23:56:16,525 [MainHT.java:20][DEBUG]:Starting app context
+2013-07-11 23:56:16,722 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:16,724 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:16,731 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:16,731 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:16,832 [AbstractApplicationContext.java:510][INFO]:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@74da0c91: startup date [Thu Jul 11 23:56:16 CEST 2013]; root of context hierarchy
+2013-07-11 23:56:16,833 [AbstractApplicationContext.java:540][DEBUG]:Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@74da0c91: org.springframework.beans.factory.support.DefaultListableBeanFactory@52efccb1: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,springConfig]; root of factory hierarchy
+2013-07-11 23:56:16,858 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:56:16,858 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:56:16,899 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:56:16,904 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:56:16,944 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:16,945 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:16,945 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:16,946 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:16,953 [PathMatchingResourcePatternResolver.java:550][DEBUG]:Looking for matching resources in directory tree [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower]
+2013-07-11 23:56:16,956 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,960 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,963 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\util] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,965 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,968 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,969 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\impl] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,971 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,972 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring\cfg] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:56:16,977 [PathMatchingResourcePatternResolver.java:351][DEBUG]:Resolved location pattern [classpath*:es/moodbox/humantower/**/*.class] to resources [file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\ServerHandler.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\StringProtocolInitalizer.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\util\RequestUtil.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServer.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServerHandler.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServerInitializer.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\MainHT.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\HumanTowerService.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\impl\HumanTowerIterativeImpl.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\impl\HumanTowerRecursiveImpl.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring\cfg\SpringConfig.class]]
+2013-07-11 23:56:17,017 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\ServerHandler.class]
+2013-07-11 23:56:17,019 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\StringProtocolInitalizer.class]
+2013-07-11 23:56:17,023 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServer.class]
+2013-07-11 23:56:17,028 [ClassPathScanningCandidateComponentProvider.java:270][DEBUG]:Ignored because not a concrete top-level class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\HumanTowerService.class]
+2013-07-11 23:56:17,041 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring\cfg\SpringConfig.class]
+2013-07-11 23:56:17,105 [MutablePropertySources.java:107][DEBUG]:Adding [class path resource [netty-server.properties]] PropertySource with lowest search precedence
+2013-07-11 23:56:17,111 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.serverBootstrap()
+2013-07-11 23:56:17,113 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.workerGroup()
+2013-07-11 23:56:17,114 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.bossGroup()
+2013-07-11 23:56:17,116 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.tcpSocketAddress()
+2013-07-11 23:56:17,118 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.propertyPlaceholderConfigurer()
+2013-07-11 23:56:17,119 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.tcpChannelOptions()
+2013-07-11 23:56:17,121 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.stringEncoder()
+2013-07-11 23:56:17,122 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.stringDecoder()
+2013-07-11 23:56:17,124 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.htService()
+2013-07-11 23:56:17,252 [ConfigurationClassEnhancer.java:94][DEBUG]:Successfully enhanced es.moodbox.humantower.spring.cfg.SpringConfig; enhanced class name is: es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01
+2013-07-11 23:56:17,253 [ConfigurationClassPostProcessor.java:359][DEBUG]:Replacing bean definition 'springConfig' existing class name 'es.moodbox.humantower.spring.cfg.SpringConfig' with enhanced class name 'es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01'
+2013-07-11 23:56:17,286 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'propertyPlaceholderConfigurer'
+2013-07-11 23:56:17,287 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'propertyPlaceholderConfigurer'
+2013-07-11 23:56:17,305 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'propertyPlaceholderConfigurer' to allow for resolving potential circular references
+2013-07-11 23:56:17,306 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'propertyPlaceholderConfigurer'
+2013-07-11 23:56:17,307 [MutablePropertySources.java:107][DEBUG]:Adding [environmentProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,307 [MutablePropertySources.java:107][DEBUG]:Adding [localProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,336 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:56:17,337 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:56:17,339 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:56:17,339 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:56:17,340 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:56:17,340 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:56:17,341 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:56:17,341 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:56:17,342 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:56:17,342 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:56:17,351 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:56:17,351 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:56:17,352 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:56:17,352 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:56:17,352 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2013-07-11 23:56:17,353 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:56:17,358 [AbstractApplicationContext.java:807][DEBUG]:Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@b30e9f8]
+2013-07-11 23:56:17,362 [AbstractApplicationContext.java:831][DEBUG]:Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@5ef74fc5]
+2013-07-11 23:56:17,393 [DefaultListableBeanFactory.java:596][INFO]:Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@52efccb1: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,springConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,serverHandler,stringProtocolInitalizer,httpServer,serverBootstrap,workerGroup,bossGroup,tcpSocketAddress,propertyPlaceholderConfigurer,tcpChannelOptions,stringEncoder,stringDecoder,htService]; root of factory hierarchy
+2013-07-11 23:56:17,393 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:56:17,394 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:56:17,394 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:56:17,394 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:56:17,394 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'springConfig'
+2013-07-11 23:56:17,395 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'springConfig'
+2013-07-11 23:56:17,420 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.bossCount
+2013-07-11 23:56:17,421 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.workerCount
+2013-07-11 23:56:17,421 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.tcpPort
+2013-07-11 23:56:17,421 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private boolean es.moodbox.humantower.spring.cfg.SpringConfig.keepAlive
+2013-07-11 23:56:17,421 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.backlog
+2013-07-11 23:56:17,421 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private java.lang.String es.moodbox.humantower.spring.cfg.SpringConfig.log4jConfiguration
+2013-07-11 23:56:17,422 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private es.moodbox.humantower.handlers.StringProtocolInitalizer es.moodbox.humantower.spring.cfg.SpringConfig.protocolInitalizer
+2013-07-11 23:56:17,422 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'springConfig' to allow for resolving potential circular references
+2013-07-11 23:56:17,442 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.bossCount
+2013-07-11 23:56:17,445 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [environmentProperties]
+2013-07-11 23:56:17,446 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [systemProperties]
+2013-07-11 23:56:17,446 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [systemEnvironment]
+2013-07-11 23:56:17,447 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [class path resource [netty-server.properties]]
+2013-07-11 23:56:17,447 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'boss.thread.count' in [class path resource [netty-server.properties]] with type [String] and value '2'
+2013-07-11 23:56:17,457 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'boss.thread.count' in [environmentProperties] with type [String] and value '2'
+2013-07-11 23:56:17,477 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,478 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,478 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,478 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,479 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,480 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,480 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,480 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,482 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,482 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,482 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,483 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,486 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,487 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,487 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,487 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,489 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,490 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,490 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,490 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,502 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.workerCount
+2013-07-11 23:56:17,503 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [environmentProperties]
+2013-07-11 23:56:17,503 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [systemProperties]
+2013-07-11 23:56:17,503 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [systemEnvironment]
+2013-07-11 23:56:17,504 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [class path resource [netty-server.properties]]
+2013-07-11 23:56:17,504 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'worker.thread.count' in [class path resource [netty-server.properties]] with type [String] and value '2'
+2013-07-11 23:56:17,504 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'worker.thread.count' in [environmentProperties] with type [String] and value '2'
+2013-07-11 23:56:17,506 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,506 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,506 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,507 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,508 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,508 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,508 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,509 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,510 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,510 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,510 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,511 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,512 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,512 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,512 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,513 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,514 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,514 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,515 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,515 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,516 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.tcpPort
+2013-07-11 23:56:17,516 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [environmentProperties]
+2013-07-11 23:56:17,516 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [systemProperties]
+2013-07-11 23:56:17,517 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [systemEnvironment]
+2013-07-11 23:56:17,517 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [class path resource [netty-server.properties]]
+2013-07-11 23:56:17,518 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'tcp.port' in [class path resource [netty-server.properties]] with type [String] and value '8080'
+2013-07-11 23:56:17,518 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'tcp.port' in [environmentProperties] with type [String] and value '8080'
+2013-07-11 23:56:17,519 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,520 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,520 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,520 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,521 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,522 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,522 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,522 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,524 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,524 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,525 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,525 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,527 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,527 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,528 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,528 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,530 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,530 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,531 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,531 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,532 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private boolean es.moodbox.humantower.spring.cfg.SpringConfig.keepAlive
+2013-07-11 23:56:17,533 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [environmentProperties]
+2013-07-11 23:56:17,533 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [systemProperties]
+2013-07-11 23:56:17,533 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [systemEnvironment]
+2013-07-11 23:56:17,534 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [class path resource [netty-server.properties]]
+2013-07-11 23:56:17,534 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.keepalive' in [class path resource [netty-server.properties]] with type [String] and value 'true'
+2013-07-11 23:56:17,535 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.keepalive' in [environmentProperties] with type [String] and value 'true'
+2013-07-11 23:56:17,536 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,537 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,537 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,538 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,538 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,539 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,539 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,540 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,540 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,541 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,541 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,541 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,542 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,542 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,543 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,543 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,544 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,544 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,544 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,545 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,546 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.backlog
+2013-07-11 23:56:17,546 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [environmentProperties]
+2013-07-11 23:56:17,547 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [systemProperties]
+2013-07-11 23:56:17,547 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [systemEnvironment]
+2013-07-11 23:56:17,547 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [class path resource [netty-server.properties]]
+2013-07-11 23:56:17,548 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.backlog' in [class path resource [netty-server.properties]] with type [String] and value '100'
+2013-07-11 23:56:17,548 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.backlog' in [environmentProperties] with type [String] and value '100'
+2013-07-11 23:56:17,549 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,549 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,550 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,550 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,551 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,551 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,552 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,552 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,553 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,553 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,554 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,554 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,555 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,555 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,555 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,556 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,557 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:56:17,557 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:56:17,557 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:56:17,558 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:56:17,558 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private java.lang.String es.moodbox.humantower.spring.cfg.SpringConfig.log4jConfiguration
+2013-07-11 23:56:17,559 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [environmentProperties]
+2013-07-11 23:56:17,559 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [systemProperties]
+2013-07-11 23:56:17,559 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [systemEnvironment]
+2013-07-11 23:56:17,560 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [class path resource [netty-server.properties]]
+2013-07-11 23:56:17,560 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'log4j.configuration' in [class path resource [netty-server.properties]] with type [String] and value 'SpringNettyLog4j.properties'
+2013-07-11 23:56:17,561 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'log4j.configuration' in [environmentProperties] with type [String] and value 'SpringNettyLog4j.properties'
+2013-07-11 23:56:17,561 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private es.moodbox.humantower.handlers.StringProtocolInitalizer es.moodbox.humantower.spring.cfg.SpringConfig.protocolInitalizer
+2013-07-11 23:56:17,568 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'stringProtocolInitalizer'
+2013-07-11 23:56:17,569 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'stringProtocolInitalizer'
+2013-07-11 23:56:17,577 [Slf4JLogger.java:71][DEBUG]:Using SLF4J as the default logging framework
+2013-07-11 23:56:17,587 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.handlers.StringProtocolInitalizer]: AutowiredFieldElement for io.netty.handler.codec.string.StringDecoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringDecoder
+2013-07-11 23:56:17,587 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.handlers.StringProtocolInitalizer]: AutowiredFieldElement for io.netty.handler.codec.string.StringEncoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringEncoder
+2013-07-11 23:56:17,588 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.handlers.StringProtocolInitalizer]: AutowiredFieldElement for es.moodbox.humantower.handlers.ServerHandler es.moodbox.humantower.handlers.StringProtocolInitalizer.serverHandler
+2013-07-11 23:56:17,588 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'stringProtocolInitalizer' to allow for resolving potential circular references
+2013-07-11 23:56:17,598 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'stringProtocolInitalizer': AutowiredFieldElement for io.netty.handler.codec.string.StringDecoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringDecoder
+2013-07-11 23:56:17,600 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'stringDecoder'
+2013-07-11 23:56:17,600 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'stringDecoder'
+2013-07-11 23:56:17,601 [AbstractBeanFactory.java:242][DEBUG]:Returning eagerly cached instance of singleton bean 'springConfig' that is not fully initialized yet - a consequence of a circular reference
+2013-07-11 23:56:17,646 [Slf4JLogger.java:71][DEBUG]:Platform: Windows
+2013-07-11 23:56:17,650 [Slf4JLogger.java:76][DEBUG]:Java version: 7
+2013-07-11 23:56:17,653 [Slf4JLogger.java:76][DEBUG]:java.nio.ByteBuffer.cleaner: available
+2013-07-11 23:56:17,654 [Slf4JLogger.java:76][DEBUG]:java.nio.Buffer.address: available
+2013-07-11 23:56:17,654 [Slf4JLogger.java:76][DEBUG]:sun.misc.Unsafe.theUnsafe: available
+2013-07-11 23:56:17,655 [Slf4JLogger.java:71][DEBUG]:sun.misc.Unsafe.copyMemory: available
+2013-07-11 23:56:17,656 [Slf4JLogger.java:76][DEBUG]:java.nio.Bits.unaligned: true
+2013-07-11 23:56:17,656 [Slf4JLogger.java:76][DEBUG]:sun.misc.Unsafe: available
+2013-07-11 23:56:17,659 [Slf4JLogger.java:71][DEBUG]:Javassist: unavailable
+2013-07-11 23:56:17,659 [Slf4JLogger.java:101][INFO]:You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-07-11 23:56:17,659 [Slf4JLogger.java:76][DEBUG]:io.netty.noPreferDirect: false
+2013-07-11 23:56:17,662 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'stringDecoder' to allow for resolving potential circular references
+2013-07-11 23:56:17,673 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'stringDecoder'
+2013-07-11 23:56:17,673 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'stringProtocolInitalizer' to bean named 'stringDecoder'
+2013-07-11 23:56:17,675 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'stringProtocolInitalizer': AutowiredFieldElement for io.netty.handler.codec.string.StringEncoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringEncoder
+2013-07-11 23:56:17,677 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'stringEncoder'
+2013-07-11 23:56:17,677 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'stringEncoder'
+2013-07-11 23:56:17,678 [AbstractBeanFactory.java:242][DEBUG]:Returning eagerly cached instance of singleton bean 'springConfig' that is not fully initialized yet - a consequence of a circular reference
+2013-07-11 23:56:17,686 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'stringEncoder' to allow for resolving potential circular references
+2013-07-11 23:56:17,696 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'stringEncoder'
+2013-07-11 23:56:17,697 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'stringProtocolInitalizer' to bean named 'stringEncoder'
+2013-07-11 23:56:17,697 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'stringProtocolInitalizer': AutowiredFieldElement for es.moodbox.humantower.handlers.ServerHandler es.moodbox.humantower.handlers.StringProtocolInitalizer.serverHandler
+2013-07-11 23:56:17,698 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'serverHandler'
+2013-07-11 23:56:17,698 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'serverHandler'
+2013-07-11 23:56:17,701 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'serverHandler' to allow for resolving potential circular references
+2013-07-11 23:56:17,711 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'serverHandler'
+2013-07-11 23:56:17,712 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'stringProtocolInitalizer' to bean named 'serverHandler'
+2013-07-11 23:56:17,712 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'stringProtocolInitalizer'
+2013-07-11 23:56:17,712 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'springConfig' to bean named 'stringProtocolInitalizer'
+2013-07-11 23:56:17,713 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'springConfig'
+2013-07-11 23:56:17,713 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:56:17,713 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'serverHandler'
+2013-07-11 23:56:17,713 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'stringProtocolInitalizer'
+2013-07-11 23:56:17,713 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'httpServer'
+2013-07-11 23:56:17,713 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'httpServer'
+2013-07-11 23:56:17,717 [InitDestroyAnnotationBeanPostProcessor.java:200][DEBUG]:Found init method on class [es.moodbox.humantower.server.HttpServer]: public void es.moodbox.humantower.server.HttpServer.start() throws java.lang.Exception
+2013-07-11 23:56:17,719 [InitDestroyAnnotationBeanPostProcessor.java:208][DEBUG]:Found destroy method on class [es.moodbox.humantower.server.HttpServer]: public void es.moodbox.humantower.server.HttpServer.stop()
+2013-07-11 23:56:17,720 [InitDestroyAnnotationBeanPostProcessor.java:267][DEBUG]:Registered init method on class [es.moodbox.humantower.server.HttpServer]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@68ac462
+2013-07-11 23:56:17,720 [InitDestroyAnnotationBeanPostProcessor.java:278][DEBUG]:Registered destroy method on class [es.moodbox.humantower.server.HttpServer]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@360802
+2013-07-11 23:56:17,722 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.server.HttpServer]: AutowiredFieldElement for private io.netty.bootstrap.ServerBootstrap es.moodbox.humantower.server.HttpServer.b
+2013-07-11 23:56:17,723 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.server.HttpServer]: AutowiredFieldElement for private java.net.InetSocketAddress es.moodbox.humantower.server.HttpServer.tcpPort
+2013-07-11 23:56:17,723 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.server.HttpServer]: AutowiredFieldElement for private es.moodbox.humantower.service.HumanTowerService es.moodbox.humantower.server.HttpServer.hts
+2013-07-11 23:56:17,723 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'httpServer' to allow for resolving potential circular references
+2013-07-11 23:56:17,727 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'httpServer': AutowiredFieldElement for private io.netty.bootstrap.ServerBootstrap es.moodbox.humantower.server.HttpServer.b
+2013-07-11 23:56:17,729 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'serverBootstrap'
+2013-07-11 23:56:17,730 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'serverBootstrap'
+2013-07-11 23:56:17,730 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:56:17,734 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'bossGroup'
+2013-07-11 23:56:17,734 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'bossGroup'
+2013-07-11 23:56:17,735 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:56:17,738 [Slf4JLogger.java:76][DEBUG]:io.netty.eventLoopThreads: 8
+2013-07-11 23:56:17,788 [Slf4JLogger.java:76][DEBUG]:io.netty.noKeySetOptimization: false
+2013-07-11 23:56:17,788 [Slf4JLogger.java:76][DEBUG]:io.netty.selectorAutoRebuildThreshold: 512
+2013-07-11 23:56:17,839 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'bossGroup' to allow for resolving potential circular references
+2013-07-11 23:56:17,859 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'bossGroup'
+2013-07-11 23:56:17,860 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'workerGroup'
+2013-07-11 23:56:17,860 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'workerGroup'
+2013-07-11 23:56:17,861 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:56:17,864 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'workerGroup' to allow for resolving potential circular references
+2013-07-11 23:56:17,865 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'workerGroup'
+2013-07-11 23:56:17,872 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'tcpChannelOptions'
+2013-07-11 23:56:17,873 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'tcpChannelOptions'
+2013-07-11 23:56:17,873 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:56:17,879 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'tcpChannelOptions' to allow for resolving potential circular references
+2013-07-11 23:56:17,879 [CachedIntrospectionResults.java:159][DEBUG]:Not strongly caching class [java.util.HashMap] because it is not cache-safe
+2013-07-11 23:56:17,886 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'tcpChannelOptions'
+2013-07-11 23:56:17,899 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'serverBootstrap' to allow for resolving potential circular references
+2013-07-11 23:56:17,910 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'serverBootstrap'
+2013-07-11 23:56:17,910 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'httpServer' to bean named 'serverBootstrap'
+2013-07-11 23:56:17,911 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'httpServer': AutowiredFieldElement for private java.net.InetSocketAddress es.moodbox.humantower.server.HttpServer.tcpPort
+2013-07-11 23:56:17,912 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'tcpSocketAddress'
+2013-07-11 23:56:17,912 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'tcpSocketAddress'
+2013-07-11 23:56:17,912 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:56:17,914 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'tcpSocketAddress' to allow for resolving potential circular references
+2013-07-11 23:56:17,914 [CachedIntrospectionResults.java:159][DEBUG]:Not strongly caching class [java.net.InetSocketAddress] because it is not cache-safe
+2013-07-11 23:56:17,919 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'tcpSocketAddress'
+2013-07-11 23:56:17,919 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'httpServer' to bean named 'tcpSocketAddress'
+2013-07-11 23:56:17,920 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'httpServer': AutowiredFieldElement for private es.moodbox.humantower.service.HumanTowerService es.moodbox.humantower.server.HttpServer.hts
+2013-07-11 23:56:17,923 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'htService'
+2013-07-11 23:56:17,923 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'htService'
+2013-07-11 23:56:17,924 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:56:17,926 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'htService' to allow for resolving potential circular references
+2013-07-11 23:56:17,930 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'htService'
+2013-07-11 23:56:17,930 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'httpServer' to bean named 'htService'
+2013-07-11 23:56:17,931 [InitDestroyAnnotationBeanPostProcessor.java:293][DEBUG]:Invoking init method on bean 'httpServer': public void es.moodbox.humantower.server.HttpServer.start() throws java.lang.Exception
+2013-07-11 23:56:18,007 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.numHeapArenas: 4
+2013-07-11 23:56:18,008 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.numDirectArenas: 4
+2013-07-11 23:56:18,008 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.pageSize: 8192
+2013-07-11 23:56:18,008 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.maxOrder: 11
+2013-07-11 23:56:18,008 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.chunkSize: 16777216
+2013-07-11 23:56:18,184 [Slf4JLogger.java:76][DEBUG]:Loopback interface: Software Loopback Interface 1
+2013-07-11 23:56:18,185 [Slf4JLogger.java:76][DEBUG]:Loopback address: /127.0.0.1 (primary)
+2013-07-11 23:56:18,185 [Slf4JLogger.java:76][DEBUG]:Loopback address: /0:0:0:0:0:0:0:1
+2013-07-11 23:56:34,200 [Slf4JLogger.java:76][DEBUG]:io.netty.noResourceLeakDetection: false
+2013-07-11 23:57:55,429 [MainHT.java:20][DEBUG]:Starting app context
+2013-07-11 23:57:55,673 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:55,676 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:55,683 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:55,684 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:55,812 [AbstractApplicationContext.java:510][INFO]:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d39cb72: startup date [Thu Jul 11 23:57:55 CEST 2013]; root of context hierarchy
+2013-07-11 23:57:55,813 [AbstractApplicationContext.java:540][DEBUG]:Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@3d39cb72: org.springframework.beans.factory.support.DefaultListableBeanFactory@69acd952: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,springConfig]; root of factory hierarchy
+2013-07-11 23:57:55,851 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:57:55,851 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:57:55,909 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:57:55,914 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:57:55,956 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:55,957 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:55,957 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:55,957 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:55,965 [PathMatchingResourcePatternResolver.java:550][DEBUG]:Looking for matching resources in directory tree [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower]
+2013-07-11 23:57:55,969 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,973 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,975 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\util] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,977 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,979 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,981 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\impl] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,983 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,984 [PathMatchingResourcePatternResolver.java:612][DEBUG]:Searching directory [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring\cfg] for files matching pattern [C:/Users/victor/git/local_repo/spring-humantower/target/classes/es/moodbox/humantower/**/*.class]
+2013-07-11 23:57:55,989 [PathMatchingResourcePatternResolver.java:351][DEBUG]:Resolved location pattern [classpath*:es/moodbox/humantower/**/*.class] to resources [file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\ServerHandler.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\StringProtocolInitalizer.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\util\RequestUtil.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServer.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServerHandler.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServerInitializer.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\MainHT.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\HumanTowerService.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\impl\HumanTowerIterativeImpl.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\impl\HumanTowerRecursiveImpl.class], file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring\cfg\SpringConfig.class]]
+2013-07-11 23:57:56,032 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\ServerHandler.class]
+2013-07-11 23:57:56,034 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\handlers\StringProtocolInitalizer.class]
+2013-07-11 23:57:56,038 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\server\HttpServer.class]
+2013-07-11 23:57:56,044 [ClassPathScanningCandidateComponentProvider.java:270][DEBUG]:Ignored because not a concrete top-level class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\service\HumanTowerService.class]
+2013-07-11 23:57:56,059 [ClassPathScanningCandidateComponentProvider.java:264][DEBUG]:Identified candidate component class: file [C:\Users\victor\git\local_repo\spring-humantower\target\classes\es\moodbox\humantower\spring\cfg\SpringConfig.class]
+2013-07-11 23:57:56,127 [MutablePropertySources.java:107][DEBUG]:Adding [class path resource [netty-server.properties]] PropertySource with lowest search precedence
+2013-07-11 23:57:56,133 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.propertyPlaceholderConfigurer()
+2013-07-11 23:57:56,135 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.tcpChannelOptions()
+2013-07-11 23:57:56,137 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.stringEncoder()
+2013-07-11 23:57:56,138 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.stringDecoder()
+2013-07-11 23:57:56,140 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.htService()
+2013-07-11 23:57:56,142 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.serverBootstrap()
+2013-07-11 23:57:56,143 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.workerGroup()
+2013-07-11 23:57:56,145 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.bossGroup()
+2013-07-11 23:57:56,146 [ConfigurationClassBeanDefinitionReader.java:264][DEBUG]:Registering bean definition for @Bean method es.moodbox.humantower.spring.cfg.SpringConfig.tcpSocketAddress()
+2013-07-11 23:57:56,274 [ConfigurationClassEnhancer.java:94][DEBUG]:Successfully enhanced es.moodbox.humantower.spring.cfg.SpringConfig; enhanced class name is: es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01
+2013-07-11 23:57:56,275 [ConfigurationClassPostProcessor.java:359][DEBUG]:Replacing bean definition 'springConfig' existing class name 'es.moodbox.humantower.spring.cfg.SpringConfig' with enhanced class name 'es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01'
+2013-07-11 23:57:56,308 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'propertyPlaceholderConfigurer'
+2013-07-11 23:57:56,308 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'propertyPlaceholderConfigurer'
+2013-07-11 23:57:56,327 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'propertyPlaceholderConfigurer' to allow for resolving potential circular references
+2013-07-11 23:57:56,328 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'propertyPlaceholderConfigurer'
+2013-07-11 23:57:56,328 [MutablePropertySources.java:107][DEBUG]:Adding [environmentProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,329 [MutablePropertySources.java:107][DEBUG]:Adding [localProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,354 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:57:56,355 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:57:56,357 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:57:56,357 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:57:56,358 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:57:56,358 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:57:56,359 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:57:56,359 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:57:56,359 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:57:56,360 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:57:56,367 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2013-07-11 23:57:56,367 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:57:56,368 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:57:56,368 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:57:56,368 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2013-07-11 23:57:56,369 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:57:56,374 [AbstractApplicationContext.java:807][DEBUG]:Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@b30e9f8]
+2013-07-11 23:57:56,378 [AbstractApplicationContext.java:831][DEBUG]:Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@5ef74fc5]
+2013-07-11 23:57:56,403 [DefaultListableBeanFactory.java:596][INFO]:Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@69acd952: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,springConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,serverHandler,stringProtocolInitalizer,httpServer,propertyPlaceholderConfigurer,tcpChannelOptions,stringEncoder,stringDecoder,htService,serverBootstrap,workerGroup,bossGroup,tcpSocketAddress]; root of factory hierarchy
+2013-07-11 23:57:56,404 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2013-07-11 23:57:56,404 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2013-07-11 23:57:56,404 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2013-07-11 23:57:56,404 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2013-07-11 23:57:56,404 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'springConfig'
+2013-07-11 23:57:56,405 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'springConfig'
+2013-07-11 23:57:56,429 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.bossCount
+2013-07-11 23:57:56,429 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.workerCount
+2013-07-11 23:57:56,429 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.tcpPort
+2013-07-11 23:57:56,430 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private boolean es.moodbox.humantower.spring.cfg.SpringConfig.keepAlive
+2013-07-11 23:57:56,430 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.backlog
+2013-07-11 23:57:56,430 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private java.lang.String es.moodbox.humantower.spring.cfg.SpringConfig.log4jConfiguration
+2013-07-11 23:57:56,430 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.spring.cfg.SpringConfig$$EnhancerByCGLIB$$3fbf8b01]: AutowiredFieldElement for private es.moodbox.humantower.handlers.StringProtocolInitalizer es.moodbox.humantower.spring.cfg.SpringConfig.protocolInitalizer
+2013-07-11 23:57:56,430 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'springConfig' to allow for resolving potential circular references
+2013-07-11 23:57:56,452 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.bossCount
+2013-07-11 23:57:56,454 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [environmentProperties]
+2013-07-11 23:57:56,455 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [systemProperties]
+2013-07-11 23:57:56,456 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [systemEnvironment]
+2013-07-11 23:57:56,457 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'boss.thread.count' in [class path resource [netty-server.properties]]
+2013-07-11 23:57:56,458 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'boss.thread.count' in [class path resource [netty-server.properties]] with type [String] and value '2'
+2013-07-11 23:57:56,470 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'boss.thread.count' in [environmentProperties] with type [String] and value '2'
+2013-07-11 23:57:56,490 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,490 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,490 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,491 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,492 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,492 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,493 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,493 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,494 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,494 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,495 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,495 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,499 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,499 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,499 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,500 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,502 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,502 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,502 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,503 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,514 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.workerCount
+2013-07-11 23:57:56,515 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [environmentProperties]
+2013-07-11 23:57:56,515 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [systemProperties]
+2013-07-11 23:57:56,515 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [systemEnvironment]
+2013-07-11 23:57:56,516 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'worker.thread.count' in [class path resource [netty-server.properties]]
+2013-07-11 23:57:56,516 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'worker.thread.count' in [class path resource [netty-server.properties]] with type [String] and value '2'
+2013-07-11 23:57:56,517 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'worker.thread.count' in [environmentProperties] with type [String] and value '2'
+2013-07-11 23:57:56,518 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,518 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,519 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,519 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,520 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,521 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,521 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,521 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,522 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,523 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,523 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,523 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,524 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,525 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,525 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,526 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,527 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,527 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,527 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,528 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,528 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.tcpPort
+2013-07-11 23:57:56,529 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [environmentProperties]
+2013-07-11 23:57:56,529 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [systemProperties]
+2013-07-11 23:57:56,529 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [systemEnvironment]
+2013-07-11 23:57:56,530 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'tcp.port' in [class path resource [netty-server.properties]]
+2013-07-11 23:57:56,530 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'tcp.port' in [class path resource [netty-server.properties]] with type [String] and value '8080'
+2013-07-11 23:57:56,531 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'tcp.port' in [environmentProperties] with type [String] and value '8080'
+2013-07-11 23:57:56,532 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,532 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,533 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,533 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,534 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,534 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,535 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,535 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,536 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,537 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,537 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,538 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,539 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,539 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,540 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,540 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,541 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,541 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,542 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,542 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,543 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private boolean es.moodbox.humantower.spring.cfg.SpringConfig.keepAlive
+2013-07-11 23:57:56,543 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [environmentProperties]
+2013-07-11 23:57:56,544 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [systemProperties]
+2013-07-11 23:57:56,544 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [systemEnvironment]
+2013-07-11 23:57:56,544 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.keepalive' in [class path resource [netty-server.properties]]
+2013-07-11 23:57:56,545 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.keepalive' in [class path resource [netty-server.properties]] with type [String] and value 'true'
+2013-07-11 23:57:56,545 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.keepalive' in [environmentProperties] with type [String] and value 'true'
+2013-07-11 23:57:56,546 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,547 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,547 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,547 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,548 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,548 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,549 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,549 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,550 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,550 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,551 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,551 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,552 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,552 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,553 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,553 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,554 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,554 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,554 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,555 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,556 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private int es.moodbox.humantower.spring.cfg.SpringConfig.backlog
+2013-07-11 23:57:56,556 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [environmentProperties]
+2013-07-11 23:57:56,556 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [systemProperties]
+2013-07-11 23:57:56,557 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [systemEnvironment]
+2013-07-11 23:57:56,557 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'so.backlog' in [class path resource [netty-server.properties]]
+2013-07-11 23:57:56,558 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.backlog' in [class path resource [netty-server.properties]] with type [String] and value '100'
+2013-07-11 23:57:56,558 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'so.backlog' in [environmentProperties] with type [String] and value '100'
+2013-07-11 23:57:56,559 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,559 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,560 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,560 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,561 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,561 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,561 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,562 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,563 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,563 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,563 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,564 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,565 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,565 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,565 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,566 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,566 [AbstractEnvironment.java:112][DEBUG]:Initializing new StandardEnvironment
+2013-07-11 23:57:56,567 [MutablePropertySources.java:107][DEBUG]:Adding [systemProperties] PropertySource with lowest search precedence
+2013-07-11 23:57:56,567 [MutablePropertySources.java:107][DEBUG]:Adding [systemEnvironment] PropertySource with lowest search precedence
+2013-07-11 23:57:56,568 [AbstractEnvironment.java:116][DEBUG]:Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2013-07-11 23:57:56,568 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private java.lang.String es.moodbox.humantower.spring.cfg.SpringConfig.log4jConfiguration
+2013-07-11 23:57:56,569 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [environmentProperties]
+2013-07-11 23:57:56,569 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [systemProperties]
+2013-07-11 23:57:56,569 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [systemEnvironment]
+2013-07-11 23:57:56,570 [PropertySourcesPropertyResolver.java:70][DEBUG]:Searching for key 'log4j.configuration' in [class path resource [netty-server.properties]]
+2013-07-11 23:57:56,570 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'log4j.configuration' in [class path resource [netty-server.properties]] with type [String] and value 'SpringNettyLog4j.properties'
+2013-07-11 23:57:56,571 [PropertySourcesPropertyResolver.java:79][DEBUG]:Found key 'log4j.configuration' in [environmentProperties] with type [String] and value 'SpringNettyLog4j.properties'
+2013-07-11 23:57:56,571 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'springConfig': AutowiredFieldElement for private es.moodbox.humantower.handlers.StringProtocolInitalizer es.moodbox.humantower.spring.cfg.SpringConfig.protocolInitalizer
+2013-07-11 23:57:56,578 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'stringProtocolInitalizer'
+2013-07-11 23:57:56,579 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'stringProtocolInitalizer'
+2013-07-11 23:57:56,587 [Slf4JLogger.java:71][DEBUG]:Using SLF4J as the default logging framework
+2013-07-11 23:57:56,597 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.handlers.StringProtocolInitalizer]: AutowiredFieldElement for io.netty.handler.codec.string.StringDecoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringDecoder
+2013-07-11 23:57:56,597 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.handlers.StringProtocolInitalizer]: AutowiredFieldElement for io.netty.handler.codec.string.StringEncoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringEncoder
+2013-07-11 23:57:56,598 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.handlers.StringProtocolInitalizer]: AutowiredFieldElement for es.moodbox.humantower.handlers.ServerHandler es.moodbox.humantower.handlers.StringProtocolInitalizer.serverHandler
+2013-07-11 23:57:56,598 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'stringProtocolInitalizer' to allow for resolving potential circular references
+2013-07-11 23:57:56,609 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'stringProtocolInitalizer': AutowiredFieldElement for io.netty.handler.codec.string.StringDecoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringDecoder
+2013-07-11 23:57:56,610 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'stringDecoder'
+2013-07-11 23:57:56,611 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'stringDecoder'
+2013-07-11 23:57:56,611 [AbstractBeanFactory.java:242][DEBUG]:Returning eagerly cached instance of singleton bean 'springConfig' that is not fully initialized yet - a consequence of a circular reference
+2013-07-11 23:57:56,661 [Slf4JLogger.java:71][DEBUG]:Platform: Windows
+2013-07-11 23:57:56,665 [Slf4JLogger.java:76][DEBUG]:Java version: 7
+2013-07-11 23:57:56,668 [Slf4JLogger.java:76][DEBUG]:java.nio.ByteBuffer.cleaner: available
+2013-07-11 23:57:56,669 [Slf4JLogger.java:76][DEBUG]:java.nio.Buffer.address: available
+2013-07-11 23:57:56,669 [Slf4JLogger.java:76][DEBUG]:sun.misc.Unsafe.theUnsafe: available
+2013-07-11 23:57:56,670 [Slf4JLogger.java:71][DEBUG]:sun.misc.Unsafe.copyMemory: available
+2013-07-11 23:57:56,671 [Slf4JLogger.java:76][DEBUG]:java.nio.Bits.unaligned: true
+2013-07-11 23:57:56,671 [Slf4JLogger.java:76][DEBUG]:sun.misc.Unsafe: available
+2013-07-11 23:57:56,673 [Slf4JLogger.java:71][DEBUG]:Javassist: unavailable
+2013-07-11 23:57:56,674 [Slf4JLogger.java:101][INFO]:You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-07-11 23:57:56,674 [Slf4JLogger.java:76][DEBUG]:io.netty.noPreferDirect: false
+2013-07-11 23:57:56,677 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'stringDecoder' to allow for resolving potential circular references
+2013-07-11 23:57:56,688 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'stringDecoder'
+2013-07-11 23:57:56,688 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'stringProtocolInitalizer' to bean named 'stringDecoder'
+2013-07-11 23:57:56,690 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'stringProtocolInitalizer': AutowiredFieldElement for io.netty.handler.codec.string.StringEncoder es.moodbox.humantower.handlers.StringProtocolInitalizer.stringEncoder
+2013-07-11 23:57:56,692 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'stringEncoder'
+2013-07-11 23:57:56,692 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'stringEncoder'
+2013-07-11 23:57:56,692 [AbstractBeanFactory.java:242][DEBUG]:Returning eagerly cached instance of singleton bean 'springConfig' that is not fully initialized yet - a consequence of a circular reference
+2013-07-11 23:57:56,700 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'stringEncoder' to allow for resolving potential circular references
+2013-07-11 23:57:56,710 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'stringEncoder'
+2013-07-11 23:57:56,711 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'stringProtocolInitalizer' to bean named 'stringEncoder'
+2013-07-11 23:57:56,711 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'stringProtocolInitalizer': AutowiredFieldElement for es.moodbox.humantower.handlers.ServerHandler es.moodbox.humantower.handlers.StringProtocolInitalizer.serverHandler
+2013-07-11 23:57:56,712 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'serverHandler'
+2013-07-11 23:57:56,712 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'serverHandler'
+2013-07-11 23:57:56,715 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'serverHandler' to allow for resolving potential circular references
+2013-07-11 23:57:56,725 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'serverHandler'
+2013-07-11 23:57:56,726 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'stringProtocolInitalizer' to bean named 'serverHandler'
+2013-07-11 23:57:56,726 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'stringProtocolInitalizer'
+2013-07-11 23:57:56,726 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'springConfig' to bean named 'stringProtocolInitalizer'
+2013-07-11 23:57:56,727 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'springConfig'
+2013-07-11 23:57:56,727 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2013-07-11 23:57:56,727 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'serverHandler'
+2013-07-11 23:57:56,727 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'stringProtocolInitalizer'
+2013-07-11 23:57:56,728 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'httpServer'
+2013-07-11 23:57:56,728 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'httpServer'
+2013-07-11 23:57:56,731 [InitDestroyAnnotationBeanPostProcessor.java:200][DEBUG]:Found init method on class [es.moodbox.humantower.server.HttpServer]: public void es.moodbox.humantower.server.HttpServer.start() throws java.lang.Exception
+2013-07-11 23:57:56,733 [InitDestroyAnnotationBeanPostProcessor.java:208][DEBUG]:Found destroy method on class [es.moodbox.humantower.server.HttpServer]: public void es.moodbox.humantower.server.HttpServer.stop()
+2013-07-11 23:57:56,734 [InitDestroyAnnotationBeanPostProcessor.java:267][DEBUG]:Registered init method on class [es.moodbox.humantower.server.HttpServer]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@68ac462
+2013-07-11 23:57:56,734 [InitDestroyAnnotationBeanPostProcessor.java:278][DEBUG]:Registered destroy method on class [es.moodbox.humantower.server.HttpServer]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@360802
+2013-07-11 23:57:56,737 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.server.HttpServer]: AutowiredFieldElement for private io.netty.bootstrap.ServerBootstrap es.moodbox.humantower.server.HttpServer.b
+2013-07-11 23:57:56,809 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.server.HttpServer]: AutowiredFieldElement for private java.net.InetSocketAddress es.moodbox.humantower.server.HttpServer.tcpPort
+2013-07-11 23:57:56,810 [InjectionMetadata.java:71][DEBUG]:Registered injected element on class [es.moodbox.humantower.server.HttpServer]: AutowiredFieldElement for private es.moodbox.humantower.service.HumanTowerService es.moodbox.humantower.server.HttpServer.hts
+2013-07-11 23:57:56,811 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'httpServer' to allow for resolving potential circular references
+2013-07-11 23:57:56,818 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'httpServer': AutowiredFieldElement for private io.netty.bootstrap.ServerBootstrap es.moodbox.humantower.server.HttpServer.b
+2013-07-11 23:57:56,820 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'serverBootstrap'
+2013-07-11 23:57:56,821 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'serverBootstrap'
+2013-07-11 23:57:56,821 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:57:56,824 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'bossGroup'
+2013-07-11 23:57:56,824 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'bossGroup'
+2013-07-11 23:57:56,825 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:57:56,828 [Slf4JLogger.java:76][DEBUG]:io.netty.eventLoopThreads: 8
+2013-07-11 23:57:56,877 [Slf4JLogger.java:76][DEBUG]:io.netty.noKeySetOptimization: false
+2013-07-11 23:57:56,878 [Slf4JLogger.java:76][DEBUG]:io.netty.selectorAutoRebuildThreshold: 512
+2013-07-11 23:57:56,929 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'bossGroup' to allow for resolving potential circular references
+2013-07-11 23:57:56,950 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'bossGroup'
+2013-07-11 23:57:56,951 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'workerGroup'
+2013-07-11 23:57:56,951 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'workerGroup'
+2013-07-11 23:57:56,952 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:57:56,955 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'workerGroup' to allow for resolving potential circular references
+2013-07-11 23:57:56,956 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'workerGroup'
+2013-07-11 23:57:56,964 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'tcpChannelOptions'
+2013-07-11 23:57:56,964 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'tcpChannelOptions'
+2013-07-11 23:57:56,965 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:57:56,970 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'tcpChannelOptions' to allow for resolving potential circular references
+2013-07-11 23:57:56,971 [CachedIntrospectionResults.java:159][DEBUG]:Not strongly caching class [java.util.HashMap] because it is not cache-safe
+2013-07-11 23:57:56,978 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'tcpChannelOptions'
+2013-07-11 23:57:56,990 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'serverBootstrap' to allow for resolving potential circular references
+2013-07-11 23:57:57,001 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'serverBootstrap'
+2013-07-11 23:57:57,001 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'httpServer' to bean named 'serverBootstrap'
+2013-07-11 23:57:57,002 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'httpServer': AutowiredFieldElement for private java.net.InetSocketAddress es.moodbox.humantower.server.HttpServer.tcpPort
+2013-07-11 23:57:57,003 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'tcpSocketAddress'
+2013-07-11 23:57:57,003 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'tcpSocketAddress'
+2013-07-11 23:57:57,004 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:57:57,005 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'tcpSocketAddress' to allow for resolving potential circular references
+2013-07-11 23:57:57,006 [CachedIntrospectionResults.java:159][DEBUG]:Not strongly caching class [java.net.InetSocketAddress] because it is not cache-safe
+2013-07-11 23:57:57,010 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'tcpSocketAddress'
+2013-07-11 23:57:57,010 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'httpServer' to bean named 'tcpSocketAddress'
+2013-07-11 23:57:57,011 [InjectionMetadata.java:85][DEBUG]:Processing injected method of bean 'httpServer': AutowiredFieldElement for private es.moodbox.humantower.service.HumanTowerService es.moodbox.humantower.server.HttpServer.hts
+2013-07-11 23:57:57,014 [DefaultSingletonBeanRegistry.java:215][DEBUG]:Creating shared instance of singleton bean 'htService'
+2013-07-11 23:57:57,014 [AbstractAutowireCapableBeanFactory.java:435][DEBUG]:Creating instance of bean 'htService'
+2013-07-11 23:57:57,015 [AbstractBeanFactory.java:246][DEBUG]:Returning cached instance of singleton bean 'springConfig'
+2013-07-11 23:57:57,017 [AbstractAutowireCapableBeanFactory.java:509][DEBUG]:Eagerly caching bean 'htService' to allow for resolving potential circular references
+2013-07-11 23:57:57,021 [AbstractAutowireCapableBeanFactory.java:463][DEBUG]:Finished creating instance of bean 'htService'
+2013-07-11 23:57:57,021 [AutowiredAnnotationBeanPostProcessor.java:433][DEBUG]:Autowiring by type from bean name 'httpServer' to bean named 'htService'
+2013-07-11 23:57:57,022 [InitDestroyAnnotationBeanPostProcessor.java:293][DEBUG]:Invoking init method on bean 'httpServer': public void es.moodbox.humantower.server.HttpServer.start() throws java.lang.Exception
+2013-07-11 23:57:57,098 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.numHeapArenas: 4
+2013-07-11 23:57:57,099 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.numDirectArenas: 4
+2013-07-11 23:57:57,099 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.pageSize: 8192
+2013-07-11 23:57:57,099 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.maxOrder: 11
+2013-07-11 23:57:57,099 [Slf4JLogger.java:76][DEBUG]:io.netty.allocator.chunkSize: 16777216
+2013-07-11 23:57:57,285 [Slf4JLogger.java:76][DEBUG]:Loopback interface: Software Loopback Interface 1
+2013-07-11 23:57:57,285 [Slf4JLogger.java:76][DEBUG]:Loopback address: /127.0.0.1 (primary)
+2013-07-11 23:57:57,286 [Slf4JLogger.java:76][DEBUG]:Loopback address: /0:0:0:0:0:0:0:1
+2013-07-11 23:58:00,616 [Slf4JLogger.java:76][DEBUG]:io.netty.noResourceLeakDetection: false
+2013-07-11 23:58:11,139 [RequestUtil.java:59][ERROR]:For input string: "jkljlk"
+2013-07-11 23:58:22,016 [RequestUtil.java:59][ERROR]:For input string: "1.3"
+2013-07-11 23:58:30,641 [RequestUtil.java:59][ERROR]:For input string: "1,3"
+2013-07-11 23:59:07,886 [RequestUtil.java:59][ERROR]:For input string: "3123123123123123123123123124213515124"
+2013-07-11 23:59:18,330 [RequestUtil.java:59][ERROR]:For input string: "3123123123123"
+2013-07-11 23:59:22,939 [RequestUtil.java:59][ERROR]:For input string: "3123123123"
+2013-07-11 23:59:43,847 [RequestUtil.java:59][ERROR]:For input string: "3123989084565"
+2013-07-11 23:59:50,909 [RequestUtil.java:59][ERROR]:For input string: "312398908456"
+2013-07-11 23:59:53,738 [RequestUtil.java:59][ERROR]:For input string: "31239890845"
+2013-07-11 23:59:55,747 [RequestUtil.java:59][ERROR]:For input string: "3123989084"

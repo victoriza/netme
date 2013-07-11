@@ -78,6 +78,8 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<Object> {
 			boolean keepAlive = isKeepAlive(req);
 			Double result = new Double("-1");
 			String uri = req.getUri();
+			
+			//TODO:there needs to be a better way
 			if (uri.contains(URL_PATTERN)){
 
 				String paramaters = uri.substring(uri.indexOf("?") + 1);
@@ -96,7 +98,7 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<Object> {
 				Integer index = RequestUtil.parseString(sIndex);
 				
 				//bad params we return -1
-				if (level == -1 || index == -1) {
+				if (level < 0 || index < 0) {
 					result = new Double(-1);
 				} else {
 					result = hts.getHumanEdgeWeight(level,index);

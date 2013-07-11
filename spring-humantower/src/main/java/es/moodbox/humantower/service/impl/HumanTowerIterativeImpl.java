@@ -48,7 +48,7 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 	
 	/**
 	 * Calculates the weight of an edge position at the level
-	 * and with the indicated index
+	 * with the indicated index
 	 * 
 	 * @param level
 	 * 
@@ -56,7 +56,7 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 	 */
 	public double getHumanEdgeWeight(int level, int index) {
 		
-		//In that case it is an edge
+		//In this case it is an edge
 		if (index == 0) {
 			return getHumanEdgeWeight(level);
 		}
@@ -72,10 +72,10 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 				} else {
 					result = HUMAN_WEIGTH + ((getSafeHumanWeight(i - 1, j - 1) + getSafeHumanWeight(i - 1, j)) / 2);
 				}
-				//add to the internal structure for compute the next level
+				//add to the internal structure to compute the next level
 				humanTower.put(getKey(i, j) , result);
 				
-				//if it is the desired result
+				//it is the desired result
 				if (i == level && j == index) {
 					return result;
 				}
@@ -85,7 +85,7 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 	}
 	/**
 	 * It returns the weight of a person at the level. index position
-	 * from the build human tower
+	 * from the built human tower
 	 * It has matrix notation w[x][y] represents the weight
 	 * at level x and index y
 	 * 
