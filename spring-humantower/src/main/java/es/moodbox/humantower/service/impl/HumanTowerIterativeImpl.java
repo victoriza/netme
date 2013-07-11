@@ -45,8 +45,22 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 			return (HUMAN_WEIGTH + getHumanEdgeWeight(level-1)) / 2;
 		}
 	}
-
+	
+	/**
+	 * Calculates the weight of an edge position at the level
+	 * and with the indicated index
+	 * 
+	 * @param level
+	 * 
+	 * @return weight over the shoulders
+	 */
 	public double getHumanEdgeWeight(int level, int index) {
+		
+		//In that case it is an edge
+		if (index == 0) {
+			return getHumanEdgeWeight(level);
+		}
+				
 		Double result;
 		for (int i = 1; i <= level; i++){
 			for (int j = 0; j <= i; j++) {
@@ -69,6 +83,16 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 		}
 		return Double.valueOf("-1");
 	}
+	/**
+	 * It returns the weight of a person at the level. index position
+	 * from the build human tower
+	 * It has matrix notation w[x][y] represents the weight
+	 * at level x and index y
+	 * 
+	 * @param level
+	 * @param index
+	 * @return
+	 */
 	private static Double getSafeHumanWeight(int level, int index) {
 		Double res = humanTower.get(getKey(level, index));
 		if (res == null) {
@@ -77,7 +101,13 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 		return res;
 	}
 	
-	
+	/**
+	 * Generates the key for the human tower build
+	 * 
+	 * @param level
+	 * @param index
+	 * @return
+	 */
 	private static String getKey(int level , int index) {
 		StringBuffer key = new StringBuffer(INITIAL_KEY_LENGHT);
 		key.append(level);

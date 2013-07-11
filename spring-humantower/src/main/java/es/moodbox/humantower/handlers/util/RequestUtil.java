@@ -20,7 +20,13 @@ public class RequestUtil {
 	private static final String EQUAL = "=";
 	private static final String DELIM = "&";
 
-
+	/**
+	 * It returns a the params from a normal request
+	 * Example:level=y&area=x
+	 * 
+	 * @param paramaters the actual params
+	 * @return
+	 */
 	public static HashMap<String, String> getParams(String paramaters) {
 		HashMap<String, String> params = new HashMap<String, String>();
 		try{

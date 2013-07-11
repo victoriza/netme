@@ -95,11 +95,7 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<Object> {
 				Integer level = Integer.parseInt(sLevel);
 				Integer index = Integer.parseInt(sIndex);
 
-				if (index > 0) {
-					result = hts.getHumanEdgeWeight(level,index);
-				} else {
-					result = hts.getHumanEdgeWeight(level);
-				}
+				result = hts.getHumanEdgeWeight(level,index);
 			}
 			
 			ByteBuf sResult = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(String.valueOf(result), CharsetUtil.US_ASCII));
