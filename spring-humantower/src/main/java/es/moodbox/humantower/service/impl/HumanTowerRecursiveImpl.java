@@ -8,7 +8,7 @@ public class HumanTowerRecursiveImpl implements HumanTowerService{
 	
 	public HumanTowerRecursiveImpl() {}
 
-	public Double getHumanEdgeWeight(int level, int index) {
+	public double getHumanEdgeWeight(int level, int index) {
 		if (level == 0) {
 			return Double.valueOf("0.0");
 		} else {
@@ -23,7 +23,7 @@ public class HumanTowerRecursiveImpl implements HumanTowerService{
 		return HUMAN_WEIGHT;
 	}
 
-	public Double getHumanEdgeWeight(int level) {
+	public double getHumanEdgeWeight(int level) {
 		if (level == 0) {
 			return Double.valueOf("0.0");
 		} else {

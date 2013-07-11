@@ -76,13 +76,13 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<Object> {
 				out.add(new DefaultFullHttpResponse(HTTP_1_1, CONTINUE));
 			}
 			boolean keepAlive = isKeepAlive(req);
-
+			Double result = new Double("-1");
 			String uri = req.getUri();
 			if (uri.contains(URL_PATTERN)){
 
 				String paramaters = uri.substring(uri.indexOf("?") + 1);
 				HashMap<String, String> params = RequestUtil.getParams(paramaters);
-				
+
 				String sLevel = params.get(PARAM_LEVEL);
 				if (sLevel == null || sLevel.isEmpty()) {
 					sLevel = "0";
@@ -91,25 +91,30 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<Object> {
 				if (sIndex == null || sIndex.isEmpty()) {
 					sIndex = "0";
 				}
-				
+
 				Integer level = Integer.parseInt(sLevel);
 				Integer index = Integer.parseInt(sIndex);
-				
-				Double result = hts.getHumanEdgeWeight(level,index);
-				ByteBuf sResult = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(String.valueOf(result), CharsetUtil.US_ASCII));
 
-				FullHttpResponse response = new DefaultFullHttpResponse(HTTP_1_1, OK, sResult);
-				response.headers().set(CONTENT_TYPE, "text/plain");
-				response.headers().set(CONTENT_LENGTH, response.content().readableBytes());
-
-				if (!keepAlive) {
-					out.add(response);
-					ctx.write(out).addListener(ChannelFutureListener.CLOSE);
-					out = MessageList.newInstance();
+				if (index > 0) {
+					result = hts.getHumanEdgeWeight(level,index);
 				} else {
-					out.add(response);
-					response.headers().set(CONNECTION, Values.KEEP_ALIVE);
+					result = hts.getHumanEdgeWeight(level);
 				}
+			}
+			
+			ByteBuf sResult = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(String.valueOf(result), CharsetUtil.US_ASCII));
+
+			FullHttpResponse response = new DefaultFullHttpResponse(HTTP_1_1, OK, sResult);
+			response.headers().set(CONTENT_TYPE, "text/plain");
+			response.headers().set(CONTENT_LENGTH, response.content().readableBytes());
+
+			if (!keepAlive) {
+				out.add(response);
+				ctx.write(out).addListener(ChannelFutureListener.CLOSE);
+				out = MessageList.newInstance();
+			} else {
+				out.add(response);
+				response.headers().set(CONNECTION, Values.KEEP_ALIVE);
 			}
 		}
 	}

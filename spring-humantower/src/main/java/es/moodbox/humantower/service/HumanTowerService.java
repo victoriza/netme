@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public interface HumanTowerService {
 
-	Double getHumanEdgeWeight(int level, int index);
+	double getHumanEdgeWeight(int level, int index);
 	
-	Double getHumanEdgeWeight(int level);
+	double getHumanEdgeWeight(int level);
 }

@@ -21,6 +21,8 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 	private static final String SEPARATOR = "-";
 	
 	private final static HashMap<String, Double> humanTower = new HashMap<String, Double>();
+
+	private static final int CONSTANT_LEVEL = 60;
 	
 	static {
 		humanTower.put(getKey(0, 0), Double.parseDouble("0.0"));
@@ -33,16 +35,18 @@ public class HumanTowerIterativeImpl implements HumanTowerService{
 	 * 
 	 * @return weight over the shoulders
 	 */
-	public Double getHumanEdgeWeight(int level) {
+	public double getHumanEdgeWeight(int level) {
 		if (level == 0) {
 			return Double.valueOf("0.0");
+		} else if (level > CONSTANT_LEVEL) {
+			return HUMAN_WEIGTH;
 		}
 		else {
 			return (HUMAN_WEIGTH + getHumanEdgeWeight(level-1)) / 2;
 		}
 	}
 
-	public Double getHumanEdgeWeight(int level, int index) {
+	public double getHumanEdgeWeight(int level, int index) {
 		Double result;
 		for (int i = 1; i <= level; i++){
 			for (int j = 0; j <= i; j++) {
